@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sushrut Rawale | Frontend Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="logo">Sushrut</div>
+      <ul class="nav__menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="header section" id="home">
+      <div class="container hero">
+        <h2>Hi, I’m <span>Sushrut Rawale</span></h2>
+        <p>
+          Frontend Developer passionate about building modern, responsive, and
+          user-focused web applications.
+        </p>
+        <a href="#projects" class="btn">View Projects</a>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about__wrapper">
+        <img
+          src="./Sushrut.jpg"
+          alt="Sushrut Rawale"
+          class="about__img"
+        />
+        <p class="about__desc">
+          I’m a passionate Frontend Developer with skills in React.js,
+          JavaScript, HTML5, and CSS3. I love creating engaging, responsive
+          websites with clean UI and UX. I am always eager to learn new
+          technologies and deliver quality work.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <ul class="skills-list">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript (ES6+)</li>
+          <li>React.js</li>
+          <li>Redux Toolkit</li>
+          <li>Bootstrap</li>
+          <li>Material UI</li>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>MongoDB</li>
+          <li>Firebase</li>
+          <li>Git & GitHub</li>
+          <li>REST APIs</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3>Video Library App</h3>
+            <p>
+              A responsive React SPA for browsing tech videos with like,
+              comment, and category filters. Hosted on Firebase with MongoDB
+              backend.
+            </p>
+            <a
+              href="https://sushrut-react-video-library.web.app"
+              target="_blank"
+              >Live Demo</a
+            >
+            <a href="https://github.com/Sushrutrawale" target="_blank"
+              >GitHub</a
+            >
+          </div>
+          <div class="project-card">
+            <h3>To-Do List App</h3>
+            <p>
+              Simple task management app with add/delete/filter functionality.
+              Built with React and deployed on Firebase.
+            </p>
+            <a
+              href="https://react-todo-list-application.web.app"
+              target="_blank"
+              >Live Demo</a
+            >
+            <a href="https://github.com/Sushrutrawale" target="_blank"
+              >GitHub</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section-title">Internship Experience</h2>
+        <div class="project-card">
+          <h3>Data Science Intern — ImagineScript Solution Pvt. Ltd.</h3>
+          <span>June – July 2023</span>
+          <p>
+            Analyzed supermarket data using Python and visualization libraries
+            like Matplotlib and Seaborn. Gained real-world experience with
+            datasets, derived customer insights, and improved analytical
+            thinking useful for web development.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <ul class="education__list">
+          <li>
+            <strong>B.E. in Computer Science Engineering</strong>, SGBAU,
+            Amravati<br />
+            CGPA: 8.09 (2020–2024)
+          </li>
+          <li><strong>HSC</strong>, ACS College, Amravati (2020)</li>
+          <li>
+            <strong>SSC</strong>, Dnyanmata High School, Amravati — 72.20%
+            (2018)
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ✅ Add Resume Section Here -->
+    <section class="resume section" id="resume">
+      <h2 class="section__title">Resume</h2>
+      <div class="resume__content">
+        <p>You can download my latest resume here:</p>
+        <a
+          href="assets/Sushrut_Rawale_Resume.pdf"
+          download
+          class="btn resume__btn"
+        >
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Get in Touch</h2>
+      <div class="contact__grid">
+        <div class="contact__card">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:sushrutrawale01@gmail.com"
+            >sushrutrawale01@gmail.com</a
+          >
+        </div>
+        <div class="contact__card">
+          <i class="fas fa-phone"></i>
+          <a href="tel:+917875235952">+91 78752 35952</a>
+        </div>
+        <div class="contact__card">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Pune, Maharashtra</span>
+        </div>
+        <div class="contact__card">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/Sushrutrawale" target="_blank">GitHub</a>
+        </div>
+        <div class="contact__card">
+          <i class="fab fa-linkedin"></i>
+          <a
+            href="https://linkedin.com/in/sushrut-rawale-499468215"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2025 Sushrut Rawale. Built with 💙</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
