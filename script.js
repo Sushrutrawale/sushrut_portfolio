@@ -15,6 +15,20 @@ navLinks.forEach((link) => {
   });
 });
 
+// Toggle mobile nav
+const toggleBtn = document.getElementById("nav-toggle");
+const navMenu = document.querySelector(".nav__menu");
+
+toggleBtn.addEventListener("click", () => {
+  navMenu.classList.toggle("active");
+});
+
+// Optional: Hide menu on link click
+document.querySelectorAll(".nav__menu a").forEach(link =>
+  link.addEventListener("click", () => navMenu.classList.remove("active"))
+);
+
+
 // Scroll reveal animation for sections
 const sections = document.querySelectorAll(".section");
 
